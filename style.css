@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f9f4;
+}
+:root {
+    --brand-color: #6c9894;
+    --txt-color: white;
+}
+/*----Navber-----*/
+.navbar{
+    background-color: #F4F9F4;
+    box-shadow: 0 0 2px 0 #8a8989;
+}
+#navbarNav{
+    background-color: #e2ede8;
+}
+.navbar-nav{
+    margin-right: 84px !important;
+}
+.navbar-brand{
+    background-color: #a7d7c5;
+    padding: 8px 6px;
+    margin: 0;
+}
+.nav-link{
+    margin: 0 18px;
+    padding: 8px 12px !important;
+    font-weight: bold;
+    color: #494f4e;
+}
+/*---Hero----*/
+.hero{
+    width: 100%;
+    height: 450px;
+}
+.position{
+    position: relative;
+    height: 450px;
+}
+.img1 img{
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.img2 img{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100px;
+}
+.text {
+    width: 100%;
+    height: 450px;
+    display: grid;
+    place-items: center;
+  }
+  
+  .text-content {
+    color: #6c9894;
+    text-align: center; /* Optional: Center text horizontally */
+  }
+  .text-content h1{
+    font-size: 84px;
+    font-weight: bold;
+  }
+.btn{
+    background-color: #6c9894;
+    color: white;
+    padding: 0 14px;
+}
+/*---Choose--class---*/
+#choose, #pricing, .miss{
+    background-color: #6c9894;
+}
+.header{
+    color: #f4f9f4;
+}
+.header h1{
+    font-weight: 800;
+}
+.card{
+    color: #f4f9f4;
+}
+.card h2{
+    font-weight: 600;
+}
+.class{
+    position: relative;
+    min-height: 300px;
+    height: auto;
+}
+.class .img1 img{
+    width: 260px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.class .img2 img{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100px;
+}
+
+/*-----stats-------*/
+#stats {
+    background: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    aspect-ratio: 3/2;
+    width: 100%;
+    height: 696px; /* Set the desired height */
+    background-position: center;
+    background-size: cover;
+    padding-top: 36px;
+  }
+  .header1{
+    color: #6c9894;
+  }
+  .header1 h1{
+    font-weight: 600;
+  } 
+  .round{
+    border: 3px solid #6c9894;
+    border-radius: 100%;
+    width: 50%; 
+    padding: 28px;
+  }
+
+/*------best-instructor-----*/
+#best-instructor{
+    background-color: var(--brand-color);
+    height: auto;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.best{
+    color: var(--txt-color);
+    margin: 96px auto;
+}
+.best h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+.best a{
+    text-decoration: none;
+    background-color: var(--txt-color);
+    padding: 12px 48px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: var(--brand-color);
+}
+.insimg{
+    background: url(img/instructor.jpg);
+    height: 100vh;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+/*-----new-experience----*/
+.experience{
+    width: 100%;
+}
+.extext{
+    color: var(--brand-color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+}
+.extext h1{
+    font-weight: bold;
+}
+.extext a{
+    text-decoration: none;
+    background-color: var(--brand-color);
+    padding: 12px 48px;
+    border-radius: 5px;
+    font-weight: 550;
+    color: var(--txt-color);
+}
+
+/*---pricing----*/
+#pricing .card{
+    color: var(--brand-color);
+}
+.crdtext h4{
+    font-weight: bold;
+}
+.card-body .btn{
+    background-color: var(--brand-color);
+    border: none;
+    padding: 8px;
+    font-weight: 700;
+}
+
+/*----trainer-----*/
+.trainer{
+   background-image: url(img/trainer.jpg);
+   width: 100%;
+   background-size: cover;
+   background-position: center;
+   object-fit: cover;
+}
+.border{
+    border: 2px solid var(--brand-color) !important;
+}
+.trainertext{
+    color: var(--brand-color);
+}
+.trainertext p{
+    font-size: 42px !important;
+    padding: 0 48px !important;
+}
+.trainertext h4{
+    font-weight: 650;
+}
+/*-----miss----*/
+.miss h1{
+    font-weight: 650;
+}
+.subscribe{
+    width: 36%;
+    margin: 0 auto;
+}
+.subscribe input[type=text]{
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    z-index: 5;
+}
+.subscribe .btn{
+    background-color: #c7d9d5;
+    color: var(--brand-color);
+    margin-left: -5px;
+    font-weight: 565;
+}
+/*---footer---*/
+.title{
+    color: var(--brand-color);
+    padding: 16px !important;
+}
+footer{
+    padding: 12px;
+    color: var(--brand-color);
+}
+footer h6{
+    font-weight: bold !important;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    padding: 8px 0 !important;
+    font-weight: normal;
+    margin: 18px 0;
+    color: var(--brand-color);
+}
+footer ul li a:hover{
+    text-decoration: none;
+    
+}
+footer ul li a i{
+    background-color: var(--brand-color);
+    color: white;
+    padding: 7px;
+    border-radius: 100px;
+}
+.social ul li{
+    margin: 5px 0;
+}
+
+@media (max-width: 768px){
+    .dd-sm-none{
+        display: none;
+    }
+    #stats{
+        height: auto;
+    }
+    #best-instructor{
+        height: auto;
+    }
+    .best h1{
+        font-size: 28px;
+    }
+    .insimg{
+        width: 100% !important;
+        text-align: center;
+    }
+    .best a{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .extext{
+        color: var(--brand-color);
+        padding: 30px 15px;
+    }
+    .trainertext p{
+        font-size: 13px !important;
+        /* padding: 0 48px !important; */
+    }
+    .subscribe{
+        width: 100%;
+    }
+}
